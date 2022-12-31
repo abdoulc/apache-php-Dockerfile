@@ -1,6 +1,6 @@
 FROM alpine:3.8
 LABEL maintainer="Adboul razak"
-LABEL description="Install Apacche & PHP"
+LABEL description="Apache php Docker example"
 ENV PHPVERSION 7
 
 RUN apk add --update apache2 php${PHPVERSION}-apache2 php${PHPVERSION} && \
